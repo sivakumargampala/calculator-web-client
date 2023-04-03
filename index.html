@@ -58,15 +58,15 @@
             switch (val.toLowerCase()) {
                 case "square":
                     appendValue = "Square of "+inputVal +" is "
-                    url = "http://square-service:8091/square/"+inputVal
+                    url = "http://172.20.0.1:8091/square/"+inputVal
                     break;
                 case "cube":
                 appendValue = "Cube of "+inputVal +" is "
-                    url = "http://cube-service:8092/cude/"+inputVal
+                    url = "http://172.20.0.2:8092/cude/"+inputVal
                     break;
                 case "factorial":
                     appendValue = "Factorial of "+inputVal +" is "
-                    url = "http://factorial-service:8093/factorial/"+inputVal
+                    url = "http://172.20.0.3:8093/factorial/"+inputVal
                     break;
                 default:
                     result = ""
