@@ -54,19 +54,19 @@
             }
             let result = 0;
             let appendValue=""
-            let url = "http://localhost:"
+            //let url = "http://localhost:"
             switch (val.toLowerCase()) {
                 case "square":
                     appendValue = "Square of "+inputVal +" is "
-                    url = url+"8091/square/"+inputVal
+                    url = "http://square-service:8091/square/"+inputVal
                     break;
                 case "cube":
                 appendValue = "Cube of "+inputVal +" is "
-                    url = url+"8092/cude/"+inputVal
+                    url = "http://cube-service:8092/cude/"+inputVal
                     break;
                 case "factorial":
                     appendValue = "Factorial of "+inputVal +" is "
-                    url = url+"8093/factorial/"+inputVal
+                    url = "http://factorial-service:8093/factorial/"+inputVal
                     break;
                 default:
                     result = ""
